@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowhub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/Your paragraph text.png">
+
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h2 id="text">WELCOME...!</h2>
+            <div class="hide">
+                <button id="answer" onclick="getAnsData()">ANSWER</button>
+            </div>
+            <h2 id="riddleanswer" style="display: none;"></h2>
+        </div>
+        <div class="buttons">
+            <button id="factbtn" onclick="getFacts()" style=" padding:7px 45px ; font-weight: 600;">FACTS </button>
+            <button onclick="getQuotes()"  style=" padding:7px 45px ; font-weight: 600;">QUOTES</button>
+            <button onclick="getJokes()" style=" padding:7px 45px ; font-weight: 600;">JOKES </button>
+            <button onclick="getRiddles()" style="padding:7px 45px ; font-weight: 600;">RIDDLES</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
